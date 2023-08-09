@@ -13,7 +13,7 @@ export const Lymmzy: ProjectData = {
             Lymmzy.com was a <b>Minecraft</b> network that had over <b>100.000 different players</b>. At peak times, 200
             players were
             online simultaneously. Since Minecraft isn't designed for such player numbers, I had to get creative and
-            developed a system to distribute the players across various servers without them noticing, yet still
+            developed a system to distribute the players across various servers without them noticing, still
             allowing them to play together.
         </Postit>,
         <OldImage src={"/images/lymmzy/stats.jpg"} alt={"over 100.000 users"}/>,

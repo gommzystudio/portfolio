@@ -13,7 +13,7 @@ export const AiTutor: ProjectData = {
         <Postit>
             With the help of the AiTutor app, students can have their <b>homework explained to them</b>. You can chat
             with an
-            AI that can do calculations and search the internet.
+            AI that can do calculations and research for you.
         </Postit>,
         <OldImage src={"/images/aitutor/charts.jpg"} alt={"1st learning charts"}
                   className={"md:col-span-2 md:row-span-2"}/>,
