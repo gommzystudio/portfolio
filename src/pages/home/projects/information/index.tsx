@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTimes} from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectInformation({project, close}: { project: ProjectData, close: () => void }) {
-    return <div className={"md:p-6 overflow-x-hidden"}>
+    return <div className={"md:p-6 overflow-x-hidden max-w-2xl m-auto"}>
         <div className={"p-6 relative"}>
             <div className={"flex justify-between items-center"}>
                 <div className={"w-6 h-6 block md:hidden"}/>
