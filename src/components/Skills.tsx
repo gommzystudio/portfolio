@@ -4,7 +4,7 @@ export default function Skills({skills, className}: { skills: string[], classNam
     return <div className={"w-fit h-fit " + className} style={{
         transform: `rotate(${rotation}deg)`,
     }}>
-        <h1 className={"text-center handwriting text-md font-bold"}>Technologies I used</h1>
+        <h1 className={"text-center handwriting text-sm font-bold"}>Technologies I used</h1>
         <div className={"mt-3 flex flex-wrap gap-2"}>
             {skills.map((skill, index) => {
                     return <div key={index} className={"text-sm text-gray-500 bg-gray-100 px-2 py-1 shadow"}

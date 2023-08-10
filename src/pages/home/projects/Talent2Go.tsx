@@ -15,7 +15,7 @@ export const Talent2Go: ProjectData = {
             apprenticeship job board <TextLink href={"https://azubi2go.de"}>Azubi2Go</TextLink>. Companies can register
             there, post their positions, and students can then apply.
         </Postit>,
-        <OldImage src={"/images/talent2go/website.jpg"} alt={"Website"} className={"md:col-span-2 md:row-span-2"}/>,
+        <OldImage src={"/images/talent2go/website.jpg"} alt={"Website"} className={"xl:col-span-2 xl:row-span-2"}/>,
         <Skills skills={
             [
                 "React",
@@ -29,7 +29,7 @@ export const Talent2Go: ProjectData = {
                 "GPT-4 Api",
             ]
         }/>,
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             At Talent2Go, I got to experience the <b>life of a startup</b> and learned to deal with spontaneous plan
             changes. For example, important tasks were often inserted on the fly.
         </Postit>,

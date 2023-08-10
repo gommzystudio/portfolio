@@ -10,11 +10,10 @@ export const LabyMod: ProjectData = {
     thumbnail: "/images/labymod/app.jpg",
     date: "2021",
     information: [
-        <Postit>
+        <Postit className={"xl:col-span-2"}>
             <TextLink href={"https://labymod.net"}>LabyMod</TextLink> is a Minecraft modification with millions of
             users. I was on the team for half a year and had the opportunity to develop the mobile app with Flutter.
         </Postit>,
-        <OldImage src={"/images/labymod/app.jpg"} alt={"LabyMod App"}/>,
         <Skills skills={
             [
                 "Flutter",
@@ -25,6 +24,7 @@ export const LabyMod: ProjectData = {
                 "OAuth2",
             ]
         }/>,
+        <OldImage src={"/images/labymod/app.jpg"} alt={"LabyMod App"}/>,
         <Postit>
             Through the app, LabyMod was able to <b>increase its revenue</b>, as in-app purchases were available.
         </Postit>,

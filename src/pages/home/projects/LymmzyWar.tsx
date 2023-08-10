@@ -10,7 +10,7 @@ export const LymmzyWar: ProjectData = {
     thumbnail: "/images/lymmzywar/ad.jpg",
     date: "2019",
     information: [
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             LymmzyWar was my first <b>realtime multiplayer mobile game</b> for iOS and Android. The goal was to take
             over the
             towers of
@@ -27,10 +27,10 @@ export const LymmzyWar: ProjectData = {
                 "Twitch API",
             ]
         }/>,
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             Through LymmzyWar, I was able to significantly improve my understanding of the client-server principle.
         </Postit>,
-        <YouTubVideo videoId={"rVx5-Hobo64"} alt={"Gameplay"} className={"md:col-span-2 md:row-span-2"}/>,
+        <YouTubVideo videoId={"rVx5-Hobo64"} alt={"Gameplay"} className={"xl:col-span-2 xl:row-span-2"}/>,
         <Postit>
             Later, I created a version for an interactive Twitch stream. In this version, viewers could participate
             using commands.

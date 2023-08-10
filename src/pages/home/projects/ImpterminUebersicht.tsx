@@ -10,7 +10,7 @@ export const ImpterminUebersicht: ProjectData = {
     thumbnail: "/images/impfterminübersicht/newspaper.jpg",
     date: "2021",
     information: [
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             In the <b>Corona year of 2021</b>, it was very difficult in Germany to get a vaccination appointment against
             the
             virus. Therefore, I developed a <b>search engine for vaccination appointments</b>, called
@@ -30,7 +30,7 @@ export const ImpterminUebersicht: ProjectData = {
             ]
         }/>,
         <OldImage src={"/images/impfterminübersicht/charts.jpg"} alt={"1st health charts"}
-                  className={"md:col-span-2 md:row-span-2"}/>,
+                  className={"xl:col-span-2 xl:row-span-2"}/>,
         <OldImage src={"/images/impfterminübersicht/stats.jpg"} alt={"over 1 million users"}/>,
         <Postit>
             At the peak, I was invited by <b>Federal President Frank-Walter Steinmeier</b> to a thank-you celebration
@@ -46,9 +46,9 @@ export const ImpterminUebersicht: ProjectData = {
             </TextLink>
         </Postit>,
         <OldImage src={"/images/impfterminübersicht/preview.jpg"} alt={"the website"}
-                  className={"md:col-span-2 md:row-span-2"}/>,
+                  className={"xl:col-span-2 xl:row-span-2"}/>,
         <OldImage src={"/images/impfterminübersicht/newspaper.jpg"} alt={"article about the project"}/>,
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             Through the ImpfterminÜbersicht, I learned how to <b>handle massive user numbers</b> while still
             guaranteeing fast
             loading times. Additionally, I spent a lot of time focusing on <b>UI design</b>. Another essential part was

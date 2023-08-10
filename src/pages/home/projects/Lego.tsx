@@ -27,7 +27,7 @@ export const Lego: ProjectData = {
             ]
         }/>,
         <YouTubVideo videoId={"q3_QVyuq7Rs"} alt={"Lego McDonald's Machine"}
-                     className={"md:col-span-2 md:row-span-2"}/>,
+                     className={"xl:col-span-2 xl:row-span-2"}/>,
         <Postit>
             I gained on Instagram over 50.000 Follower with my Lego Projects.<br/>
             <TextLink href={"https://www.instagram.com/legogommzy/"} className={"block"}>
@@ -36,7 +36,7 @@ export const Lego: ProjectData = {
         </Postit>,
         <OldImage src={"/images/lego/pepsi.jpg"} alt={"Lego with EV3"}/>,
         <OldImage src={"/images/lego/skittles.jpg"} alt={"just mechanical"}/>,
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             With the EV3, I had my first encounter with programming. Later, I <b>switched to C#</b> to increase my
             productivity, and most recently, I moved to Arduino because it has more components and is much more
             affordable.

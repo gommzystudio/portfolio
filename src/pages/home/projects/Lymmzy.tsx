@@ -9,7 +9,7 @@ export const Lymmzy: ProjectData = {
     thumbnail: "/images/lymmzy/spawn.jpg",
     date: "2017-2022",
     information: [
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             Lymmzy.com was a <b>Minecraft</b> network that had over <b>100.000 different players</b>. At peak times, 200
             players were
             online simultaneously. Since Minecraft isn't designed for such player numbers, I had to get creative and
@@ -30,7 +30,7 @@ export const Lymmzy: ProjectData = {
                 "JavaScript",
             ]
         }/>,
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             Thanks to Lymmzy, I greatly <b>improved my Java and SQL skills</b>. Additionally, I learned how to work
             within a
             limited environment (Minecraft) and still create things. I also learned how to keep a 10-member team

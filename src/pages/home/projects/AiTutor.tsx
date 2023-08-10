@@ -16,7 +16,7 @@ export const AiTutor: ProjectData = {
             AI that can do calculations and research for you.
         </Postit>,
         <OldImage src={"/images/aitutor/charts.jpg"} alt={"1st learning charts"}
-                  className={"md:col-span-2 md:row-span-2"}/>,
+                  className={"xl:col-span-2 xl:row-span-2"}/>,
         <Skills skills={
             [
                 "HTML & CSS",
@@ -33,7 +33,7 @@ export const AiTutor: ProjectData = {
                 "GPT-4 Api",
             ]
         }/>,
-        <Postit className={"md:col-span-2"}>
+        <Postit className={"xl:col-span-2"}>
             Through AiTutor, I learned how to deal with many different types of devices and how to quickly solve serious
             problems. Additionally, for the first time, I programmed something <b>natively for iOS and Android</b> since
             text

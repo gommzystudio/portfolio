@@ -53,7 +53,7 @@ function Home() {
                     {
                         selectedProject &&
                         <div
-                            className={"top-0 start-0 right-0 bottom-0 absolute w-screen h-screen bg-white md:bg-transparent md:w-full md:h-full md:relative overflow-y-scroll"}
+                            className={"top-0 start-0 right-0 bottom-0 absolute w-screen h-screen bg-white xl:bg-transparent xl:w-full xl:h-full xl:relative overflow-y-scroll"}
                             key={selectedProject?.title}
                         >
                             <ProjectInformation project={selectedProject} close={() => setSelectedProject(null)}/>
