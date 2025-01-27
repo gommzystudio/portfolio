@@ -8,7 +8,7 @@ import Skills from "../../../components/Skills";
 export const AiTutor: ProjectData = {
     title: "AiTutor",
     thumbnail: "/images/aitutor/newspaper.jpg",
-    date: "2023",
+    date: "2023-2025",
     information: [
         <Postit>
             With the help of the AiTutor app, students can have their <b>homework explained to them</b>. You can chat
@@ -40,7 +40,7 @@ export const AiTutor: ProjectData = {
             recognition is only possible natively.
         </Postit>,
         <OldImage src={"/images/aitutor/stats.jpg"} alt={"over 100.000 users"}/>,
-        <OldImage src={"/images/aitutor/appstore.jpg"} alt={"4.5 ⭐️ / 800 ratings"}/>,
+        <OldImage src={"/images/aitutor/appstore.jpg"} alt={"4.6 ⭐️ / 1200 ratings"}/>,
         <Postit>
             A few days after the launch, the project was featured in newspaper articles and on TV.
             <TextLink

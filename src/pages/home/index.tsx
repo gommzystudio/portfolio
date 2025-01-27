@@ -11,8 +11,12 @@ import {LymmzyWar} from "./projects/LymmzyWar";
 import {CryptoFactories} from "./projects/CryptoFactories";
 import {LabyMod} from "./projects/LabyMod";
 import {Talent2Go} from "./projects/Talent2Go";
+import {Porsche} from "./projects/Porsche";
+import {LichtbildManufaktur} from "./projects/LichtbildManufaktur";
 
 const projects = [
+    LichtbildManufaktur,
+    Porsche,
     AiTutor,
     Talent2Go,
     CryptoFactories,
@@ -59,8 +63,17 @@ function Home() {
                             <ProjectInformation project={selectedProject} close={() => setSelectedProject(null)}/>
                         </div>
                     }
-
                 </AnimatePresence>
+
+                {
+                    !selectedProject &&
+                    <div className={"flex-1 h-full flex items-center justify-center max-md:hidden"}>
+                        <div className={"text-center"}>
+                            <h1 className={"text-4xl font-bold"}>Welcome to my Pinboard 👋</h1>
+                            <p className={"text-gray-500"}>Tap on a project to see more.</p>
+                        </div>
+                    </div>
+                }
             </div>
         </div>
     );

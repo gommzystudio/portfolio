@@ -17,6 +17,10 @@ body {
     background: black;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .arial {
     font-family: Arial, serif;
 }
