@@ -1,16 +1,35 @@
 import Project, {ProjectData} from "./project";
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Impressum from "./impressum";
 import Socials from "./socials";
+import ScrollIndicator from "./ScrollIndictator";
 
 export default function Sidebar({projects, onProjectClick, selectedProject}: {
     projects: ProjectData[],
     onProjectClick: (project: ProjectData) => void,
     selectedProject: ProjectData | null,
 }) {
+    const scrollAreaRef = React.useRef<HTMLDivElement>(null);
+    const [scrollPos, setScrollPos] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = (e: Event) => {
+            const target = e.target as HTMLElement;
+            setScrollPos(target.scrollTop);
+        };
+
+        const container = scrollAreaRef.current;
+        container?.addEventListener("scroll", handleScroll);
+
+        return () => {
+            container?.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+
     return (
         <div
-            className={"w-full xl:w-96 h-full p-12 pt-6 overflow-scroll overflow-x-hidden bg-gray-100 shadow-lg"}>
+            className={"w-full xl:w-96 h-full p-12 pt-6 overflow-scroll overflow-x-hidden bg-gray-100 shadow-lg relative"} ref={scrollAreaRef}>
 
             <Socials/>
 
@@ -24,6 +43,8 @@ export default function Sidebar({projects, onProjectClick, selectedProject}: {
                     </div>
                 })}
             </div>
+
+            <ScrollIndicator scrollPosition={scrollPos}/>
 
             <Impressum/>
         </div>
