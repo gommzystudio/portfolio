@@ -67,7 +67,7 @@ function Home() {
                     <title>Julian Ambrozy's Portfolio</title>
                     <link rel="canonical" href="https://julian-ambrozy.com"/>
                     <meta name="description" content={"Hey, I'm Julian Ambrozy, a applied computer science student at the HTWG in Constance (germany)."}/>
-                    <link rel="icon" href={"/images/me.jpeg"}/>
+                    <link rel="icon" href={"/images/julian.jpeg"}/>
                 </Helmet>
             }
 
