@@ -55,7 +55,9 @@ function Home() {
                 selectedProject &&
                 <Helmet>
                     <title>{selectedProject.title} - Julian Ambrozy</title>
+                    <link rel="canonical" href={`https://julian-ambrozy.com/${encodeURIComponent(selectedProject.title)}`}/>
                     <meta name="description" content={selectedProject.description}/>
+                    <link rel="icon" href={selectedProject.thumbnail}/>
                 </Helmet>
             }
 
@@ -63,7 +65,9 @@ function Home() {
                 !selectedProject &&
                 <Helmet>
                     <title>Julian Ambrozy's Portfolio</title>
+                    <link rel="canonical" href="https://julian-ambrozy.com"/>
                     <meta name="description" content={"Hey, I'm Julian Ambrozy, a applied computer science student at the HTWG in Constance (germany)."}/>
+                    <link rel="icon" href={"/images/me.jpeg"}/>
                 </Helmet>
             }
 
