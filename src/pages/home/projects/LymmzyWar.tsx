@@ -7,6 +7,7 @@ import YouTubVideo from "../../../components/YouTubeVideo";
 
 export const LymmzyWar: ProjectData = {
     title: "LymmzyWar",
+    description: "LymmzyWar was my first realtime multiplayer mobile game for iOS and Android.",
     thumbnail: "/images/lymmzywar/ad.jpg",
     date: "2019",
     information: [

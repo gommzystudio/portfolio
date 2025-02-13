@@ -8,6 +8,7 @@ import Skills from "../../../components/Skills";
 
 export const Lego: ProjectData = {
     title: "Lego Machines",
+    description: "I have been building and programming Lego machines since 2012. I have documented a lot of it on YouTube and Instagram.",
     thumbnail: "/images/lego/machine.jpg",
     date: "since 2012",
     information: [

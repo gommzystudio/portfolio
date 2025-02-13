@@ -7,6 +7,7 @@ import TextLink from "../../../components/TextLink";
 
 export const CryptoFactories: ProjectData = {
     title: "CryptoFactories",
+    description: "CryptoFactories was a browser game centered around factories and generators in the form of NFTs on the blockchain.",
     thumbnail: "/images/cryptofactories/logo.jpg",
     date: "2022",
     information: [

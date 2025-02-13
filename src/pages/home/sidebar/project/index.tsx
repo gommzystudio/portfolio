@@ -5,6 +5,7 @@ export type ProjectData = {
     thumbnail: string;
     date: string;
     title: string;
+    description: string;
     information: React.ReactNode[];
 }
 

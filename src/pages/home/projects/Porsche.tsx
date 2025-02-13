@@ -7,6 +7,7 @@ import YouTubVideo from "../../../components/YouTubeVideo";
 
 export const Porsche: ProjectData = {
     title: "Porsche Engineering",
+    description: "I completed a 6-month internship at Porsche Engineering in the Functional and System Development department.",
     thumbnail: "/images/porsche/app.jpg",
     date: "2024",
     information: [

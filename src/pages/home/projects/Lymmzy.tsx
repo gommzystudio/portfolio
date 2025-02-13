@@ -6,6 +6,7 @@ import Skills from "../../../components/Skills";
 
 export const Lymmzy: ProjectData = {
     title: "LYMMZY",
+    description: "Lymmzy.com was a Minecraft network with over 100.000 players.",
     thumbnail: "/images/lymmzy/spawn.jpg",
     date: "2017-2022",
     information: [

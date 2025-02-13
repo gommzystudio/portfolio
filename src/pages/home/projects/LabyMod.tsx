@@ -7,6 +7,7 @@ import Skills from "../../../components/Skills";
 
 export const LabyMod: ProjectData = {
     title: "LabyMod App",
+    description: "I developed the mobile app for LabyMod with Flutter.",
     thumbnail: "/images/labymod/app.jpg",
     date: "2021",
     information: [

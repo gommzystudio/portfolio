@@ -7,6 +7,7 @@ import Skills from "../../../components/Skills";
 
 export const Talent2Go: ProjectData = {
     title: "Azubi2Go",
+    description: "At the StartUp Talent2Go, one of my projects was the apprenticeship job board Azubi2Go.",
     thumbnail: "/images/talent2go/team.jpg",
     date: "2022-2023",
     information: [

@@ -7,6 +7,7 @@ import OldImage from "../../../components/OldImage";
 
 export const LichtbildManufaktur: ProjectData = {
     title: "Lichtbild Manufaktur",
+    description: "I founded Lichtbild Manufaktur to create personalized 3D-printed models of any location worldwide.",
     thumbnail: "/images/lichtbildmanufaktur/new-york.jpg",
     date: "since 2024",
     information: [

@@ -7,6 +7,7 @@ import Skills from "../../../components/Skills";
 
 export const AiTutor: ProjectData = {
     title: "AiTutor",
+    description: "AiTutor is an app that helps students with their homework.",
     thumbnail: "/images/aitutor/newspaper.jpg",
     date: "2023-2025",
     information: [

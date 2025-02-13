@@ -13,8 +13,9 @@ import {LabyMod} from "./projects/LabyMod";
 import {Talent2Go} from "./projects/Talent2Go";
 import {Porsche} from "./projects/Porsche";
 import {LichtbildManufaktur} from "./projects/LichtbildManufaktur";
+import {Helmet} from "react-helmet";
 
-const projects = [
+export const Projects = [
     LichtbildManufaktur,
     Porsche,
     AiTutor,
@@ -40,7 +41,7 @@ function Home() {
         //load project from url
         const pathname = decodeURI(window.location.pathname.substring(1));
         if (pathname && !selectedProject) {
-            const project = projects.find(project => project.title === pathname)
+            const project = Projects.find(project => project.title === pathname)
             if (project) {
                 setSelectedProject(project)
             }
@@ -50,7 +51,23 @@ function Home() {
 
     return (
         <div className="bg-white h-screen w-screen flex">
-            <Sidebar projects={projects} onProjectClick={onProjectClick} selectedProject={selectedProject}/>
+            {
+                selectedProject &&
+                <Helmet>
+                    <title>{selectedProject.title} - Julian Ambrozy</title>
+                    <meta name="description" content={selectedProject.description}/>
+                </Helmet>
+            }
+
+            {
+                !selectedProject &&
+                <Helmet>
+                    <title>Julian Ambrozy's Portfolio</title>
+                    <meta name="description" content={"Hey, I'm Julian Ambrozy, a applied computer science student at the HTWG in Constance (germany)."}/>
+                </Helmet>
+            }
+
+            <Sidebar projects={Projects} onProjectClick={onProjectClick} selectedProject={selectedProject}/>
             <div
                 className={"flex-1"}>
                 <AnimatePresence initial={false} mode={"wait"}>

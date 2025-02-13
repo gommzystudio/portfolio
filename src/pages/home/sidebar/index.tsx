@@ -38,9 +38,12 @@ export default function Sidebar({projects, onProjectClick, selectedProject}: {
             <div
                 className={"mt-10 grid grid-col gap-20 justify-center items-center relative max-w-xs m-auto"}>
                 {projects.map((project, index) => {
-                    return <div key={index} onClick={() => onProjectClick(project)}>
+                    return <a key={index} href={"/" + project.title} onClick={(e) => {
+                        e.preventDefault();
+                        onProjectClick(project)
+                    }}>
                         <Project project={project}/>
-                    </div>
+                    </a>
                 })}
             </div>
 

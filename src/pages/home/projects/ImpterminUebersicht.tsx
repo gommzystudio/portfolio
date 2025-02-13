@@ -7,6 +7,7 @@ import Skills from "../../../components/Skills";
 
 export const ImpterminUebersicht: ProjectData = {
     title: "ImpfterminÜbersicht",
+    description: "ImpfterminÜbersicht is a search engine for vaccination appointments in Germany during the Corona pandemic.",
     thumbnail: "/images/impfterminübersicht/newspaper.jpg",
     date: "2021",
     information: [
