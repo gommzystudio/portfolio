@@ -30,9 +30,9 @@ export const ImpterminUebersicht: ProjectData = {
                 "Dart"
             ]
         }/>,
-        <OldImage src={"/images/impfterminübersicht/charts.jpg"} alt={"1st health charts"}
+        <OldImage src={"/images/impfterminübersicht/charts.jpg"} alt={"1st health charts (200k app downloads)"}
                   className={"xl:col-span-2 xl:row-span-2"}/>,
-        <OldImage src={"/images/impfterminübersicht/stats.jpg"} alt={"over 1 million users"}/>,
+        <OldImage src={"/images/impfterminübersicht/stats.jpg"} alt={"over 6m users"}/>,
         <Postit>
             At the peak, I was invited by <b>Federal President Frank-Walter Steinmeier</b> to a thank-you celebration
             for
